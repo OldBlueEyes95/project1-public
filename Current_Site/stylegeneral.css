@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: black;
+    margin: 0; /*Outside spacing*/
+}
+
+header {
+    margin: 0; /*Outside spacing*/
+    padding: 0; /*Inside spacing*/
+    color: black;
+    background-color: rgb(57, 57, 213);
+    min-height: 20%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    flex-grow: 1;
+}
+
+.custom-select {
+    /* margin: 15px; */
+    padding: 15px;
+}
+
+.general-text {
+    padding: 15px;
+}
+
+.header-text {
+    padding: 10px;
+}
+
+.footer-text {
+    /* TODO */
+    color: black; /* dummy value */
+}
+
+
+/* TODO make image sit at the bottom */
+footer {
+    min-height: 50px;
+    max-height: 50px;
+    background-image: url("zachary.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(57, 57, 213);
+}
