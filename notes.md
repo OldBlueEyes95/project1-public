@@ -15,3 +15,11 @@ HTML5 Semantic Elements
 <summary> - Defines a heading for the <details> element
 You can read more about semantic elements in our HTML Semantics chapter.
 ```
+
+
+w3schools.com/howto/howto_custom_select.asp
+
+
+https://hackernoon.com/how-to-create-box-element-using-css-only-7mut3ytc
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
