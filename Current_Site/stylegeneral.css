@@ -1,3 +1,11 @@
+/*
+Landing
+Technical Portfolio
+Qualifications
+Service
+AI Page
+*/
+
 html, body {
     height: 100%;
     font-family: verdana;
@@ -21,6 +29,7 @@ header {
     flex-grow: 1;
 }
 
+/* + note to self: use flexboxes to make these side by side */
 .custom-select {
     /* margin: 15px; */
     padding: 15px;
@@ -59,6 +68,11 @@ footer {
     height: 100px;
     width: 100px;
     background-color: rgb(57, 57, 213);
+    color: white;
+}
+
+.link-box-link {
+    color: white;
 }
 
 /*
@@ -84,4 +98,11 @@ li {
     width: 100px;
     height: 100px;
     margin: auto;
+}
+
+#ai-body {
+    background-image: url("aitemp.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
