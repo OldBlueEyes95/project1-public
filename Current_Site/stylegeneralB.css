@@ -1,0 +1,205 @@
+/*
+Landing
+Technical Portfolio
+Qualifications
+Service
+AI Page
+*/
+
+/* header {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(57, 57, 213);
+    min-height: 20%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    flex-grow: 1;
+} */
+
+/* + note to self: use flexboxes to make these side by side */
+/*? .custom-select {
+    padding: 15px;
+} */
+
+/*? .general-text {
+    padding: 15px;
+} */
+
+/*? .header-text {
+    padding: 10px;
+} */
+
+.footer-text {
+    /* TODO */
+    color: black; /* dummy value */
+}
+
+
+/* TODO make image sit at the bottom */
+footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 100%;
+    background-image: url("zachary.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(57, 57, 213);
+}
+
+.link-box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(57, 57, 213);
+    color: white;
+}
+
+.link-box-link {
+    color: white;
+}
+
+/*
+.parent {
+  display: flex;
+  height: 300px;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+*/
+
+ul {
+    display: flex;
+    flex-direction: row; /* flex-direction: column; */
+    
+    height: 400px;
+    list-style: none;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+/* 
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+*/
+
+#ai-body {
+    background-image: url("college_experience_ai.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* [] from light.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: verdana;
+    
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+    color: black;
+    
+    /* forces everything to behave like a box */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+}
+
+/* h1 {
+    
+    
+    forces everything to behave like a box 
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    
+    width: 100%;
+} */
+
+/* .body_content {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+    width: 100%;
+} */
+
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#body_content {
+    color: darkblue;
+    
+    top: 10px;
+    left: 10px;
+    position: relative;
+}
+
+#header {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    
+    top: 0px;
+    left: 0px;
+    position: relative;
+    
+    
+    margin: 0; /*Outside spacing*/
+    padding: 10px; /*Inside spacing*/
+    color: white;
+    background-color: rgb(57, 57, 213);
+    min-height: 20%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* generic junk from lab a while ago */
+.blue_overline_text {
+    color: blue;
+    text-decoration: overline;
+}
+#red_underline_text {
+    color: red;
+    text-decoration: underline;
+}
+/*
+?????
+Class Selector: (“.”)
+ID Selector: (“#”)
+Type Selector: none
+*/
