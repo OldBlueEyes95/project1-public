@@ -5,7 +5,16 @@ function button1() {
     document.getElementById("output").innerHTML = "Press x " + num;
 }
 
-function toggleStyleSheet(){
+
+function light_mode() {
+    document.getElementById("page_style").setAttribute("href", "light.css");
+}
+
+function dark_mode() {
+    document.getElementById("page_style").setAttribute("href", "dark.css");
+}
+
+function toggleStyleSheet() {
     // Task 1
     // Steps
     // 1 (a) Get style element by ID (hint: getElementById)
