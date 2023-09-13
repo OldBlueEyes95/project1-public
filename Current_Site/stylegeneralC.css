@@ -112,18 +112,20 @@ ul { /* thing that holds the unordered list */
     display: flex;
     flex-direction: column; /* for C: column; */
     
-    height: 400px;
+    height: 500px;
     list-style: none;
+    
+    margin: 0 auto; /* Center horizontally */
 }
 li { /* unordered list elements */
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     margin: auto;
     text-align: center;
 }
 .link-box {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 400px;
     background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
     color: white;
 }
@@ -131,11 +133,21 @@ li { /* unordered list elements */
     color: white;
 }
 
-#ai-body { /* ai page */
+/* #ai-body {
     background-image: url("college_experience_ai.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} */
+
+#ai-picture {
+    min-width: 100%;
+}
+
+#resume-thumbnail {
+    max-width: 17%;
+    height: auto;
+    border: 5px double magenta;
 }
 
 

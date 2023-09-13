@@ -122,20 +122,31 @@ li { /* unordered list elements */
     text-align: center;
 }
 .link-box {
-    height: 150px;
+    height: 90px;
     width: 150px;
     background-color: rgb(57, 57, 213); /* for B: rgb(57, 57, 213) */
     color: white;
+    padding-top: 60px;
 }
 .link-box-link {
     color: white;
 }
 
-#ai-body { /* ai page */
+/* #ai-body {
     background-image: url("college_experience_ai.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} */
+
+#ai-picture {
+    min-width: 100%;
+}
+
+#resume-thumbnail {
+    max-width: 17%;
+    height: auto;
+    border: none;
 }
 
 

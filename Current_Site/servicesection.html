@@ -5,58 +5,66 @@
 -->
 
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Your Name</title>
-        <link rel="stylesheet" type="text/css" href="stylegeneral.css"></link>
-    </head>
+<html lang="en">
 
-    <header>
-        <div class="header-text">
-            <h1>
-                Noah Batchelor's Portfolio Website
-            </h1>
-            Page <a href="landingarea.html">1</a> <a href="technicalportfolio.html">2</a> <a href="qualificationssection.html">3</a> <a href="servicesection.html">4</a> <a href="aigeneratedpage.html">5</a> <a href="PLAINlandingarea.html">T</a>
-            (Temporary navigation bar until selector is implemented)
-        </div>
-        
-        <!-- TODO add JS to make selectors functional -->
-        <div class="container"> <!-- TODO figure out how to place side by side -->
-            <div class="custom-select" style="width:200px;">
-                <select>
-                    <option value="0">Select page:</option>
-                    <option value="1">Home</option>
-                    <option value="2">Technical Portfolio</option>
-                    <option value="3">Qualifications</option>
-                    <option value="4">The AI Page</option>
-                </select>
-            </div>
-            <div class="custom-select" style="width:200px;">
-                <select>
-                    <option value="0">Select theme:</option>
-                    <option value="1">Modern</option>
-                    <option value="2">Newspaper</option>
-                    <option value="3">Terminal</option>
-                    <option value="4">Malware</option>
-                </select>
-            </div>
-        </div>
-    </header>
+<!-- {} header metadata -->
+<head>
+    <title>Service Section</title>
+    <link rel="stylesheet" type="text/css" href="stylegeneralB.css" id="site_style"/>
+    <script src="style_selector.js"></script>
+    <script src="page_selector.js"></script>
+</head>
 
-    <body>
-        <div class="general-text">
-            <h1>Here are my various service interests</h1>
-            
-            <!-- TODO find an integrated PDF viewer -->
-            
-            insert specific service items here
-            
-            <aside>
-                (insert general service interests here)
-            </aside>
-            
-        </div>
-    </body>
+
+<!-- {} page body -->
+<body><div class="page">
+
+<div class="text" id="header">
+    Noah Batchelor's Portfolio Website
     
-    <a href="debug_index.html"><footer></footer></a>
-</html>
+    <div class="container"> <!-- TODO figure out how to place side by side -->
+        <div class="custom-select" onchange="selector()">
+            <select>
+                <option value="null">Select page:</option>
+                <option value="landingarea2.html">Home</option>
+                <option value="technicalportfolio.html">Technical Portfolio</option>
+                <option value="qualificationssection.html">Qualifications</option>
+                <option value="servicesection.html">Service</option>
+                <option value="aigeneratedpage.html">The AI Page</option>
+            </select>
+        </div>
+        <!-- <div class="custom-select" style="width:200px;">
+            <select>
+                <option value="0">Select theme:</option>
+                <option value="1">Modern</option>
+                <option value="2">Newspaper</option>
+                <option value="3">Terminal</option>
+                <option value="4">Malware</option>
+            </select>
+        </div> -->
+        <button type="button" onclick="toggleStyleSheet()">Swap Mode</button>
+    </div>
+</div>
+
+<div class="text" id="body_content">
+    <div class="general-text">
+        <h1>Here are my various service interests</h1>
+        insert specific service items here
+        
+        <aside>
+            (insert general service interests here)
+        </aside>
+    </div>
+    
+    <!-- <ul>
+        <li><a class="link-box-link" href="technicalportfolio.html"><div class="link-box"><br><br><br>Technical Work</div></a></li>
+        <li><a class="link-box-link" href="qualificationssection.html"><div class="link-box"><br><br><br>Qualifications</div></a></li>
+        <li><a class="link-box-link" href="servicesection.html"><div class="link-box"><br><br><br>Service</div></a></li>
+        <li><a class="link-box-link" href="aigeneratedpage.html"><div class="link-box"><br><br><br>AI Page</div></a></li>
+    </ul> -->
+    <!-- Page <a href="landingarea.html">1</a>  <a href="PLAINlandingarea.html">T</a> -->
+</div>
+
+<a href="debug_index.html"><footer></footer></a>
+
+</div></body></html>
