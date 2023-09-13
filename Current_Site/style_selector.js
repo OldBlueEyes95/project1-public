@@ -43,6 +43,10 @@ window.onload = function(){
     // 2 (a) get stylesheet name from local storage hint: localStorage.getItem(name)
     // 2 (b) get html style element by ID
     // 2 (c) replace href attribute of html element.
+    var prev_style = localStorage.getItem("prev_style");
+    if (!((prev_style === "stylegeneralC.css") || (prev_style === "stylegeneralC.css"))) {
+        localStorage.setItem("prev_style", "stylegeneralB.css")
+    }
     document.getElementById("site_style").setAttribute("href", localStorage.getItem("prev_style"));
 }
 
