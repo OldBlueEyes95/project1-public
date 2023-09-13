@@ -110,24 +110,48 @@ footer {
 /* [] boxes from landing, can probably be reused */
 ul { /* thing that holds the unordered list */
     display: flex;
-    flex-direction: column; /* for C: column; */
-    
-    height: 500px;
     list-style: none;
-    
     margin: 0 auto; /* Center horizontally */
 }
+#ul-landing {
+    flex-direction: column; /* for C: column; */
+    height: auto;
+    min-height: 1000px;
+    width: 100%;
+}
+#ul-technical {
+    flex-direction: row;
+    height: auto;
+    min-height: 700px;
+    width: 90%;
+}
+#ul-service {
+    flex-direction: column; /* for C: column; */
+    height: auto;
+    min-height: 2000px;
+}
 li { /* unordered list elements */
-    /* width: 200px; */
-    height: 200px;
     margin: auto;
+}
+#li-landing {
     text-align: center;
 }
-.link-box {
+#li-technical {
+    text-align: left;
+}
+#link-box {
     height: 50px;
     width: 400px;
     background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
     color: white;
+    padding-top: 60px;
+}
+#tech-box {
+    height: 400px;
+    width: 85%;
+    background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
+    color: white;
+    padding-top: 60px;
 }
 .link-box-link {
     color: white;
@@ -150,6 +174,25 @@ li { /* unordered list elements */
     border: 5px double magenta;
 }
 
+.tech-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    object-position: bottom;
+}
+.serv-img {
+    width: auto;
+    height: 350px;
+    object-fit: scale-down;
+    padding-left: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* {} unsorted stuff from darkmode lab */
 a:link {
@@ -166,4 +209,10 @@ a:hover {
 
 a:active {
     color: lightskyblue;
+}
+
+
+
+#essay {
+    padding: 20px;
 }
