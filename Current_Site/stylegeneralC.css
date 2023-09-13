@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-    background-color: white;
+    background-color: black; /* for B: white */
     color: black;
     position: absolute; /* forces everything to behave like a box */
     top: 0px;
@@ -28,7 +28,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: whitesmoke; /* for B: whitesmoke */
+    background-color: black; /* for B: whitesmoke */
     
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ body {
 
 /* [] part of text class, controls generic header */
 #header {
-    color: white; /* for B: white */
+    color: black; /* for B: white */
     font-size: xx-large;
     font-weight: bold;
     
@@ -51,7 +51,7 @@ body {
     
     margin: 0; /*Outside spacing*/
     padding: 10px; /*Inside spacing*/
-    background-color: rgb(57, 57, 213); /* for B: rgb(57, 57, 213) */
+    background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
     min-height: 20%;
     width: 100%;
     margin-left: 0%;
@@ -63,7 +63,7 @@ button {
     border: none;
     text-align: center;
     display: inline-block;
-    background-color: darkblue; /* for B: darkblue */
+    background-color: red; /* for B: darkblue */
     color: white;
 }
 select {
@@ -72,13 +72,13 @@ select {
     border: none;
     text-align: left;
     display: inline-block;
-    background-color: darkblue; /* for B: darkblue */
+    background-color: red; /* for B: darkblue */
     color: white;
 }
 
 /* [] main text body */
 #body_content {
-    color: darkblue; /* for B: darkblue */
+    color: red; /* for B: darkblue */
     
     top: 10px;
     left: 10px;
@@ -93,11 +93,11 @@ footer {
     min-height: 50px;
     max-height: 50px;
     min-width: 100%;
-    background-image: url("zachary.jpg"); /* for B: zachary.jpg */
+    background-image: url("Zach_Night.jpg"); /* for B: zachary.jpg */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(57, 57, 213); /* for B: rgb(57, 57, 213) */
+    background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
 }
 
 
@@ -110,7 +110,7 @@ footer {
 /* [] boxes from landing, can probably be reused */
 ul { /* thing that holds the unordered list */
     display: flex;
-    flex-direction: row; /* for C: column; */
+    flex-direction: column; /* for C: column; */
     
     height: 400px;
     list-style: none;
@@ -124,7 +124,7 @@ li { /* unordered list elements */
 .link-box {
     height: 150px;
     width: 150px;
-    background-color: rgb(57, 57, 213); /* for B: rgb(57, 57, 213) */
+    background-color: rgb(255, 98, 0); /* for B: rgb(57, 57, 213) */
     color: white;
 }
 .link-box-link {
@@ -140,7 +140,7 @@ li { /* unordered list elements */
 
 
 /* {} unsorted stuff from darkmode lab */
-/* a:link {
+a:link {
     color: pink;
 }
 
@@ -154,4 +154,4 @@ a:hover {
 
 a:active {
     color: lightskyblue;
-} */
+}
